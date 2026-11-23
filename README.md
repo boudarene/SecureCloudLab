@@ -158,18 +158,8 @@ docker compose down
 docker compose down -v
 ```
 
-## Points à expliquer en entretien
 
-- Pourquoi un reverse proxy est placé devant l'API.
-- Pourquoi PostgreSQL ne publie pas son port vers l'hôte.
-- Différence entre réseau Docker public et `internal`.
-- Rôle des volumes persistants.
-- Intérêt d'un healthcheck.
-- Pourquoi les secrets ne doivent pas être committés dans GitHub.
-- Ce que collecte Prometheus et comment lire une métrique.
-- Ce que la CI vérifie avant une mise en production.
-
-## Améliorations possibles
+## Roadmap / Évolutions prévues
 
 - HTTPS avec certificats TLS.
 - Grafana pour les tableaux de bord.
